@@ -4,7 +4,7 @@ import { HttpClient, json } from 'aurelia-fetch-client';
 @inject(HttpClient)
 export class App {
   constructor(http) {
-    this.message = 'Hello World! - Users';
+    this.message = 'Hello World!';
     this.http = http;
     this.users = [];
 
